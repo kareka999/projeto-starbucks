@@ -80,7 +80,7 @@ button:hover{
     height: 100%;
     width: 100%;
     position: absolute;
-    top: 137px;
+    top: 345px;
     left: 0;
     clip-path: circle(600px at right 800px);
     z-index: -1;
