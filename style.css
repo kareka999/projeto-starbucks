@@ -95,3 +95,63 @@ button:hover{
     width: 340px;
 
 }
+
+/* Media Query para telas com largura máxima de 900px */
+@media (max-width: 900px) {
+    body {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .conteudo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .textos {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .textos h2 {
+        font-size: 40px;
+    }
+
+    .textos p {
+        font-size: 14px;
+    }
+
+    .imagen {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .botao-menu {
+        width: 50px;
+    }
+
+    .circulo {
+        top: 200px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 120%;
+    }
+
+    .logo {
+        width: 70px;
+    }
+
+    .imagen-copo {
+        width: 250px;
+    }
+}
+
